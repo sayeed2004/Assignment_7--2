@@ -1,0 +1,26 @@
+﻿body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+.container {
+  width: 100%;
+}
+article[role="main"] {
+  float: left;
+  width: 62.5%;
+}
+aside[role="complementary"] {
+  float: right;
+  width: 31.25%;
+}
+.box {
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+body {
+  background: #b3b3b3;
+}
+h1, h2 {
+  color: #868686;
+}
